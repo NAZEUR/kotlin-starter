@@ -1,10 +1,8 @@
-class DestructuringDeclarations {
-    fun main(){
-        val datauser = DataUser("nrohmen",17)
+fun main(){
+    val datauser = DataUser("nrohmen",17)
 
-        val name = datauser.component1()
-        val age = datauser.component2()
+    val name = datauser.component1()
+    val age = datauser.component2()
 
-        println("My name is $name")
-    }
+    println("My name is $name, I am $age years old")
 }
